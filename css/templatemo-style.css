@@ -456,6 +456,16 @@ figure.effect-ming:hover img { opacity: 0.4; } */
     height: 40vh;
 }
 
+.card-k{
+    height: 80vh;
+}
+
+.card-k img{
+    height: 100%;
+    object-fit: contain;
+    object-fit: cover;
+}
+
 .card-a img{
     height: 100%;
     object-fit: contain;
@@ -748,4 +758,29 @@ select:not([multiple]) {
         z-index: 11;
     }
     .tm-social-links li { margin-right: 3px; }
+}
+
+
+
+.audio-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    border-bottom: 1px solid #333333;
+}
+.audio-title audio{
+    width: 90%;
+}
+
+.audio-player{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.audio-title p{
+    color: black;
+    font-weight: 700;
 }
